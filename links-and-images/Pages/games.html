@@ -11,16 +11,29 @@
     <h1>Games</h1>
     <a href ="../../index.html">Home</a>
     <a href="../Interests.html">Interests</a>
-    <div>
-        <img src="../Images/game1.jpg" alt="woops image doesnt want to load">
-        <p>huge gamer</p>
+    <div class="row">
+      <div class="column">
+        <img src="../Images/game1.jpg" alt="Snow" style="width:100%">
+        <p>Mass Effect trilogy one of my all time favourites and one of the best rpg's of our time</p>
+      </div>
+      <div class="column">
+        <img src="../Images/game2.jpg" alt="Forest" style="width:100%">
+        <p>Mass Effect trilogy one of my all time favourites and one of the best rpg's of our time</p>
+      </div>
+      <div class="column">
+        <img src="../Images/game3.jpg" alt="Mountains" style="width:100%">
+        <p>Mass Effect trilogy one of my all time favourites and one of the best rpg's of our time</p>
+      </div>
     </div>
-
 </body>
 <style>
-    img{
-        width:50%;
-        
-    } 
+    .row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
 </style>
 </html>

@@ -1,5 +1,5 @@
 h1 {
-    background-color: rgb(213, 215, 216);
+    background-color:#197FB7;
     text-align: center;
   }
   div {
@@ -10,7 +10,7 @@ h1 {
     background-color: whitesmoke;
   }
   body {
-    background: rgb(190, 190, 202);
+    background-color:#197FB7;
   }
   .row {
     display: flex;
